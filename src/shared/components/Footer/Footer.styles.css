@@ -1,0 +1,48 @@
+footer {
+  background-color: var(--bg-shade);
+}
+a {
+  cursor: pointer;
+}
+.footer-content {
+  padding: 95px 0;
+}
+.contact .MuiTypography-h4 {
+  font-weight: bold;
+  margin-bottom: 31px;
+}
+.sign-in-input {
+  border: none !important;
+  padding: 11px 80px 11px 20px;
+}
+.input-group {
+  margin-bottom: 25px;
+}
+.MuiTypography-body1 {
+  color: var(--sub-text-color);
+}
+footer .MuiTypography-h6 {
+  margin-bottom: 42px;
+}
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  color: var(--sub-text-color);
+  vertical-align: middle;
+}
+.footer-content ul li {
+  margin-bottom: 21px;
+}
+
+.coppy-write {
+  background-color: #e7e4f8;
+  padding: 17px 0;
+}
+.social a i {
+  vertical-align: middle;
+  color: #151875;
+  font-size: 19px;
+}
+.social a {
+  margin-right: 11px;
+}

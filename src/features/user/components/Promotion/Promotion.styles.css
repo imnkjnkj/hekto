@@ -1,0 +1,57 @@
+/* promotional */
+.promotional {
+  background-color: var(--bg-promotional);
+  position: relative;
+}
+.bg-promo {
+  width: 600px;
+  margin: 39px 0;
+}
+.promo-content {
+  position: relative;
+  background-color: var(--bg-ptomotional);
+}
+.promo-text {
+  padding: 203px 0 169px 0;
+  width: 644px;
+}
+.promo-text h1 {
+  font-size: 53px;
+  line-height: 82px;
+  font-weight: bold;
+}
+.promo-text h5 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--pink);
+  margin-bottom: 12px;
+}
+.promo-text p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 175%;
+  color: var(--promortional-text);
+  margin: 8px 0 27px 0;
+}
+.btn-shop-now {
+  width: 163px;
+  height: 50px;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+}
+.page-link {
+  color: var(--pink);
+  background-color: transparent;
+  border: none;
+}
+.page-link:hover {
+  color: var(--pink);
+  background-color: transparent;
+}
+/* end promotional */

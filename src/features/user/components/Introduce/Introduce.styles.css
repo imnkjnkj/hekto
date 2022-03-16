@@ -1,0 +1,20 @@
+.introduce {
+  padding: 58px 0 55px 0;
+}
+.introduce-content {
+  text-align: center;
+}
+.introduce-content .MuiPaper-root {
+  max-width: 270px;
+  margin-right: 28px;
+}
+.introduce-content .MuiPaper-root:last-child {
+  margin-right: 0px;
+}
+.introduce-content img {
+  margin: 67px 0 27px 0;
+}
+
+.introduce-content .MuiTypography-body1 {
+  margin: 20px 0 45px 0;
+}

@@ -1,0 +1,12 @@
+.featured-products {
+  text-align: center;
+  padding-top: 129px;
+}
+.main-title {
+  font-size: 42px;
+  line-height: 49px;
+  font-weight: bold;
+  color: var(--off-blue);
+  margin-bottom: 48px;
+  text-align: center;
+}

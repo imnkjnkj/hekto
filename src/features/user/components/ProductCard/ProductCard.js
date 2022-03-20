@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./ProductCard.styles.css";
 
 
-const ProductCard = () =>{
+const ProductCard = ({product}) =>{
   return (
     <div class="card">
     <div class="image-product">
@@ -20,9 +20,9 @@ const ProductCard = () =>{
       <button class="btn btn-view-detail">View Details</button>
     </div>
     <div class="product-detail">
-      <h5 class="name-product">Cantilever chair</h5>
-      <h6 class="code-product">Code - Y523201</h6>
-      <h6 class="price-product">$42.00</h6>
+      <h5 class="name-product">{product.name}</h5>
+      <h6 class="code-product">Code - {product.code}</h6>
+      <h6 class="price-product">$ {product.price}</h6>
     </div>
   </div>
   )

@@ -1,0 +1,34 @@
+.blog-view .MuiPaper-root {
+  margin-right: 56px;
+}
+.blog-view .MuiPaper-root:last-child {
+  margin-right: 0;
+}
+.blog-view .MuiButton-root {
+  border-bottom: 1px solid #151875;
+  border-radius: 0;
+  color: var(--navy-blue);
+}
+.blog-view .MuiCardContent-root {
+  padding: 64px 19px 35px 19px;
+}
+.blog-view .MuiTypography-h5 {
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--navy-blue);
+  font-weight: bold;
+}
+.blog-view .MuiTypography-body2 {
+  margin: 14px 0 17px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.blog-view .MuiPaper-root:hover .MuiTypography-h5,
+.blog-view .MuiPaper-root:hover .MuiButton-root {
+  color: var(--pink);
+}
+.blog-view .MuiPaper-root:hover .MuiButton-root {
+  border-bottom: 1px solid #fb2e86;
+}

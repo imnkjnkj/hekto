@@ -4,6 +4,7 @@ import "./Promotion.styles.css";
 
 
 const Promotion = () => {
+
   return (
     <section class="promotional">
       <div class="container">

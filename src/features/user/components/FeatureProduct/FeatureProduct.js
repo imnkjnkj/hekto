@@ -1,19 +1,24 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./FeaureProduct.styles.css"
 import ProductCard from "../ProductCard/ProductCard"
+import { useSelector } from "react-redux";
+import { productsSelector } from "../../stores/userSelector";
+
 const FeatureProduct = () => {
+  const productsList = useSelector(productsSelector);
+  // console.log(products);
+  const products= productsList.slice(1,5);
   return (
-    <section class="featured-products">
+    <section className="featured-products">
 
-    <div class="container">
-      <h2 class="main-title">Featured Products</h2>
+    <div className="container">
+      <h2 className="main-title">Featured Products</h2>
 
-      <div class="featured-products-content d-flex">
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
+      <div className="featured-products-content d-flex">
+        {products?.map(product=>(
+          <ProductCard product={product} key={product.id} />
 
+        ))}
       </div>
     </div>
     </section>
